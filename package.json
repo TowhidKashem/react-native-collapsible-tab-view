@@ -19,7 +19,8 @@
     "bootstrap": "yarn example && yarn",
     "prepack": "bob build",
     "docs": "ts-node ./documentation/buildDocs.ts",
-    "prepare": "bob build && husky install"
+    "prepare": "bob build && husky install",
+    "build": "bob build"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
